@@ -56,20 +56,42 @@ body h1 {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .card {
         flex-basis: content;
         margin: 20px;
-        padding: 100px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
         background-color: #434343;
         border-radius: 0px 50px 0px 50px;
         text-align: center;
     }
 
     .card p {
-        color: white;
+        color: #ffffff;
+        flex-basis: content;
         font-size: 20px;
         text-align: left;
         position: static;
+        flex-grow: 3;
       }
+
+      .card img {
+        height: 200px;
+        flex-grow: 1;
+        width: auto;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+
+    .card h2 {
+      background: linear-gradient(to left top, #5c5c5c, #8f8f8f, #ededed);
+      padding: 5px;
+      border-radius: 0px 50px 0px 50px;
+      text-align: center;
+      flex-grow: 2;
+      margin-bottom: 10px;
+    }
+    
 }
