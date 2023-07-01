@@ -54,3 +54,22 @@ body h1 {
     cursor: pointer;
     border-radius: 50%;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .card {
+        flex-basis: 400px;
+        margin: 20px;
+        padding: 100px;
+        background-color: #434343;
+        border-radius: 0px 50px 0px 50px;
+        text-align: center;
+    }
+
+    .card p {
+        color: white;
+        font-size: 20px;
+        text-align: left;
+        position: static;
+      }
+}
