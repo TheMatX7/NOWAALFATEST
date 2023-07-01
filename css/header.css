@@ -1,0 +1,52 @@
+
+
+header {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header img {
+    border-radius: 50px;
+    height: 80px;
+    width: auto; 
+}
+  
+header #myLinks {
+    display: none;
+}
+  
+header a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+  
+header a.icon {
+    background: rgb(0, 0, 0);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.active {
+    background-color: #434343;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}

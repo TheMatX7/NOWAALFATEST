@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    margin: 50px;
+    font-size: 20px;
+
+}
+
+.container img {
+    /*height: 500px;
+    width: auto;*/
+    max-width: 60%;
+    height: auto;
+    border: white solid 5px;
+}
+
+.container h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 65px;
+}
+
+footer {
+    background-color: #434343;
+    padding: 25px;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
